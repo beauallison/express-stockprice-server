@@ -1,0 +1,7 @@
+{
+  "tickerCode": "AAPL",
+  "latestPrice": 12873,
+  "priceUnits": "GBP:pence",
+  "asOf": "2017-09-16T12:15:11.910Z",
+  "storyFeedUrl": "http://localhost:3002/6722"
+}
