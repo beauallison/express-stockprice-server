@@ -21,8 +21,8 @@
     "config": "^1.26.2",
     "express": "^4.15.4",
     "lodash": "^4.17.4",
-    "mongo-uri-builder": "^1.0.3",
     "mongodb": "^2.2.31",
+    "mongodb-uri": "^0.9.7",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4"
   },
