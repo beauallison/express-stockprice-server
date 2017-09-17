@@ -1,7 +1,9 @@
-const { server } = require('config');
-const app = require('./lib/app');
+if (!process.env.NODE_ENV) {
+  process.env.NODE_ENV = 'production';
+}
 
-const { host, port } = server;
+const { server: { host, port } } = require('config');
+const app = require('./lib/app');
 
 app.listen(port, host, (err) => {
   if (err) {
