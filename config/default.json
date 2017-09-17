@@ -1,11 +1,21 @@
 {
   "server": {
+    "host": "localhost",
     "port": 3000
   },
   "mongo": {
-    "host": "localhost",
-    "port": 27017,
-    "database": "company"
+    // "username": "username",
+    // "password": "password",
+    "hosts": [
+      {
+        "host": "localhost",
+        "port": 27017
+      }
+    ],
+    "database": "mm-recruitment"
+    //   "options": {
+    //     "authSource": "mm-recruitment"
+    // }
   },
   "stockprice": {
     "endpoint": "http://localhost:3001/company/"
