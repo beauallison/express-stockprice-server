@@ -1,4 +1,4 @@
-Acuris
+Stockprice Server
 =====
 
 ## Assumptions
